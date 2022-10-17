@@ -16,10 +16,10 @@ public class Main {
 
     /*
 
-    private QueryExecutor readOnlyQueryExector;
+    private QueryExecutor readOnlyQueryExecutor;
 
     public void query(String sql){
-        readOnlyQueryExector.execute(sql);
+        readOnlyQueryExecutor.execute(sql);
     }
 
     @Bean
@@ -29,7 +29,7 @@ public class Main {
 
     @Bean
     public ReadOnlyQueryExecutor readOnlyQueryExecutor(){
-        return new ReadOnlyQueryExecutor(queryExector);
+        return new ReadOnlyQueryExecutor(queryExecutor);
     }
 
      */
